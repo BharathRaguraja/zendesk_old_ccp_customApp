@@ -1,0 +1,26 @@
+{
+  "name": "zendesk-customApp",
+  "author": {
+    "name": "bharath",
+    "email": "bharath@sandeza-inc.com",
+    "url": "https://d3v-sandeza.zendesk.com"
+  },
+  "defaultLocale": "en",
+  "private": false,
+   "location": {
+    "support": {
+      "top_bar": "assets/iframe.html"
+    }
+  },
+  "version": "1.0.0",
+  "frameworkVersion": "2.0",
+  "domainWhitelist":["d3v-sandeza.zendesk.com",
+  "https://*.execute-api.us-east-1.amazonaws.com",
+  "https://*.awsapps.com",
+  "https://*.my.connect.aws",
+  "https://d28cm9p12gl0xb.cloudfront.net",
+  "https://65c1-49-207-180-68.ngrok.io",
+  "https://<%= iparam.whitelist_domain %>"
+]
+
+}
